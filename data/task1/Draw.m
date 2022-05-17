@@ -88,7 +88,7 @@ plot(time, theta1, 'Color', 'r', 'LineWidth', 2);
 plot(time, theta2, 'Color', 'g', 'LineWidth', 2);
 plot(time, theta3, 'Color', 'b', 'LineWidth', 2);
 legend 'Theta1' 'Theta2' 'Theta3';
-title('Target $\theta_1 = -\frac{\pi}{3}$, $\theta_2 = \frac{\pi}{4}$, $\theta_3 = \frac{\pi}{4}$ ','Interpreter','latex') 
+title('Target $\theta_1 = \frac{\pi}{3}$, $\theta_2 = \frac{\pi}{4}$, $\theta_3 = \frac{\pi}{4}$ ','Interpreter','latex') 
 xlabel('Time ($s$)','Interpreter','latex');
 ylabel('Angle ($rad$)','Interpreter','latex');
 hold off;
