@@ -104,7 +104,7 @@ plot3(line(:,1), line(:,2), line(:,3), 'b', 'LineWidth', 2);
 xlabel('X ($m$)','Interpreter','latex');
 ylabel('Y ($m$)','Interpreter','latex');
 zlabel('Z ($m$)','Interpreter','latex');
-legend 'Target 1 (-10, 10, 10)' 'Target 2 (-10, 10, 10)' 'Target 3 (-10, 10, 20)';
+legend 'Target 1 (-10, 10, 10)' 'Target 2 (-10, -10, 10)' 'Target 3 (-10, 10, 20)';
 text(line(end,1), line(end,2), line(end,3), 'Target 3');
 grif on;
 hold on;
